@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "qaguru-lesson-16"
+version = "0.1.0"
+description = ""
+authors = ["Elizaveta Kazova <e.a.kazova@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.1"
+selene = "2.0.0rc9"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
